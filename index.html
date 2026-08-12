@@ -55,7 +55,7 @@
     .decoracion.dos {
       bottom: -120px;
       left: -70px;
-      background: linear-gradient(135deg, var(--azul), #4C6FD9);
+      background: linear-gradient(135deg, var(--rosado), #FFE8FB);
     }
 
     main {
@@ -103,7 +103,7 @@
 
     h1 span {
       color: transparent;
-      background: linear-gradient(110deg, var(--naranjo), var(--azul));
+      background: linear-gradient(110deg, var(--azul), var(--rosado));
       background-clip: text;
       -webkit-background-clip: text;
     }
@@ -141,7 +141,7 @@
     #mensaje {
       min-height: 24px;
       margin: 18px 0 0;
-      color: var(--rosado);
+      color: var(--azul);
       font-weight: 700;
     }
 
@@ -176,8 +176,7 @@
     <h1>BLAH <span>Blah blah</span></h1>
 
     <p class="descripcion">
-      Una página sencilla, bonita y adaptable a celulares para practicar
-      cómo subir un proyecto a GitHub y publicarlo en Railway.
+      Blah Blah Blah
     </p>
 
     <button id="boton" type="button">Probar la página</button>
@@ -190,9 +189,6 @@
     const boton = document.querySelector("#boton");
     const mensaje = document.querySelector("#mensaje");
 
-    boton.addEventListener("click", () => {
-      mensaje.textContent = "¡Funciona! Tu página ya está lista para publicar 🚀";
-      boton.textContent = "¡Todo listo!";
     });
   </script>
 </body>
